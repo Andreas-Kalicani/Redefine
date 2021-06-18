@@ -11,6 +11,7 @@ padding: 70px;
 `;
 const WhatIcon = styled.div`
     height: 10em;
+    
 
 &:hover {
      color: #666;

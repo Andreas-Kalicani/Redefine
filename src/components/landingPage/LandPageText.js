@@ -14,13 +14,13 @@ import { Link as Scroll } from 'react-scroll'
 `;*/
 
 const TextContainer = styled.div ` 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: blck;
+    
+    text-align: center;
+    margin: 1rem 10rem;
+    
     
 
-height: 20%;
+    height: 20%;
 
 `;
 

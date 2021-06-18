@@ -10,6 +10,7 @@ const MainContent = styled.div `
     height: 100vh;
     width: 100%;
     padding-left: 5%;
+    padding-right: 5%;
     box-sizing: border-box;
     display: flex;
     margin: 0;
@@ -18,6 +19,7 @@ const MainContent = styled.div `
     margin-bottom: 0px;
     margin-left: 0px;
     flex-direction: column;
+
 `;
 const Sideimage = styled.div ` 
     height: 100%;
@@ -31,12 +33,14 @@ const Sideimage = styled.div `
     margin-bottom: 0px;
     margin-left: 0px;
     flex-direction: column;
+    justify-content: flex-start;
 
 `;
 
 const Img = styled.img ` 
     height: 100%;
-    width: 100%; 
+    width: 85%; 
+    padding-left: 10%;
     &:hover {
      
     }   
