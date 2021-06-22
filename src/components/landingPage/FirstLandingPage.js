@@ -7,7 +7,6 @@ import LandingPageText from './LandPageText';
 
 const MainPart = styled.div ` 
         display: flex;
-        //flex-direction: row;
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -17,32 +16,14 @@ const MainPart = styled.div `
         height: 100vh;
         
     `;
-    /*const LandingText = styled.div ` 
-        color: black;
-      
-    
-    `;*/
-
-   /* const ImgLanding = styled.img ` 
-        height: 100%;
-        width: 100%; 
-    
-    `; */
  
-
-
 function FirstLandingPage() {
     
     
     return ( 
 
-        <MainPart>
-                               
-            
-                 <LandingPageText /> 
-            
-             
-            
+        <MainPart>        
+            <LandingPageText />   
        </MainPart>
     
     );

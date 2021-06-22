@@ -34,6 +34,9 @@ const Sideimage = styled.div `
     margin-left: 0px;
     flex-direction: column;
     justify-content: flex-start;
+    &:hover {
+     
+    } 
 
 `;
 
