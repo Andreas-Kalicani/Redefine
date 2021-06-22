@@ -6,13 +6,9 @@ import FirstLandingPage from './components/landingPage/FirstLandingPage';
 function App() {
   return (
     <div className="App">
-      {/*<FirstLandingPage />*/}
       <FirstLandingPage />
       
-      {/*<H1 />*/}
       <H1 />
-
-      
     </div>
   );
 }
