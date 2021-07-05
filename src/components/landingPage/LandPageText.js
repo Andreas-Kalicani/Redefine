@@ -41,7 +41,7 @@ text-align: center;
             </TextContainer>
               <Scroll to='What' smooth={true}> 
              <icons> 
-                 <FaAngleDown style={{ fontSize: '36px' }} />  
+                 <FaAngleDown style={{ fontSize: '40px' }} />  
             </icons>
             </Scroll>
         </div>    
