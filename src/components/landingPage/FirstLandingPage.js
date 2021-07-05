@@ -1,4 +1,5 @@
-import React from 'react';
+//import { Collapse } from 'react-collapse';
+import React, { useEffect, useState } from 'react';
 
 import styled from 'styled-components';
 
@@ -18,12 +19,25 @@ const MainPart = styled.div `
     `;
  
 function FirstLandingPage() {
+    const [ checked, setChecked ]= useState(false);
+    useEffect(() => {
+        setChecked(true);
+    }, []);
     
     
     return ( 
 
-        <MainPart>        
-            <LandingPageText />   
+
+
+        <MainPart>  
+              {/* <Collapse in={checked} {...Collapse(checked ? { timeout: 1000 } : {})}
+                collapsedHeight={50}>  */ } 
+                 <LandingPageText />
+           
+               {/* </Collapse>  */ }  
+           
+             
+            
        </MainPart>
     
     );

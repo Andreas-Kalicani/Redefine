@@ -39,7 +39,7 @@ const TextContainer = styled.div `
             </TextContainer>
               <Scroll to='H1' smooth={true}> 
              <icons> 
-                 <FaAngleDown style={{ fontSize: '36px' }} />  
+                 <FaAngleDown style={{ fontSize: '40px' }} />  
             </icons>
             </Scroll>
         </div>    
