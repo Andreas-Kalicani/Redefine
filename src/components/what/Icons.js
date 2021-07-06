@@ -1,38 +1,81 @@
 import React from 'react';
 import styled from 'styled-components';
-import { CgArrowDownR } from 'react-icons/cg';
+//import { CgArrowDownR } from 'react-icons/cg';
 
-const MainBox = styled.div ` 
+const MainBoxFirst = styled.div ` 
 display: flex;
 color: blue;
 justify-items: flex-start;
 justify-content: space-around;
-padding: 70px;
+padding: 30px;
+`;
+const MainBoxSecond = styled.div ` 
+ display: flex;
+ color: blue;
+ justify-items: flex-start;
+ justify-content: space-around;
+ padding: 30px;
+`;
+const MainBoxThird = styled.div ` 
+ display: flex;
+ color: blue;
+ justify-items: flex-start;
+ justify-content: space-around;
+ padding: 30px;
 `;
 const WhatIcon = styled.div`
     height: 10em;
     
-
-&:hover {
-     color: #666;
-    }
-
+ &:hover {
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+        transform: scale(1.2);
+        z-index: 99;
+        overflow: hidden;
+    }   
 `;
 
 const Icons =( ) => {
     return(
-        <MainBox> 
+        <>
+        <MainBoxFirst> 
            <WhatIcon> 
-           <icon> <CgArrowDownR style={{ fontSize: '36px' }}/> </icon> 
+           <icon> Service Design </icon> 
            </WhatIcon> 
            <WhatIcon> 
-           <icon> <CgArrowDownR style={{ fontSize: '36px' }}/> </icon> 
+           <icon> Strategi </icon> 
            </WhatIcon> 
            <WhatIcon> 
-           <icon> <CgArrowDownR style={{ fontSize: '36px' }} /> </icon> 
+           <icon> Kortlaeging af <br/>interessenter </icon> 
+           </WhatIcon>  
+        </MainBoxFirst>
+
+        <MainBoxSecond> 
+            <WhatIcon> 
+           <icon> Koncept & <br/> Design </icon> 
            </WhatIcon> 
-           
-        </MainBox>
+           <WhatIcon> 
+           <icon> Brugerinvolvering </icon> 
+           </WhatIcon> 
+           <WhatIcon> 
+           <icon> Data & <br/>indsigter </icon> 
+           </WhatIcon> 
+        </MainBoxSecond>
+
+        <MainBoxThird> 
+            <WhatIcon> 
+           <icon> Workshops</icon> 
+               {/*<CgArrowDownR style={{ fontSize: '36px' }}/> */}
+           </WhatIcon> 
+           <WhatIcon> 
+           <icon> Prototyper </icon> 
+           </WhatIcon> 
+           <WhatIcon> 
+           <icon> Circulaer <br/> okonomi </icon> 
+           </WhatIcon> 
+        </MainBoxThird>
+
+        </>
     )
 }
 
