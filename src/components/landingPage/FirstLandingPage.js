@@ -10,8 +10,8 @@ const MainPart = styled.div `
         display: flex;
         height: 100vh;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("/images/pexels.jpg");
+        background-size: fit;
+        background-image: url("/images/Frontpage.png");
         align-items: flex-end;
         justify-content: center;
         height: 100vh;
@@ -30,6 +30,7 @@ function FirstLandingPage() {
 
 
         <MainPart>  
+            
               {/* <Collapse in={checked} {...Collapse(checked ? { timeout: 1000 } : {})}
                 collapsedHeight={50}>  */ } 
                  <LandingPageText />
