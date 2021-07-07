@@ -96,13 +96,8 @@ const Material = (  ) => {
         <Wrapper> 
             
             <Sideimage> 
-<<<<<<< HEAD
-                <Img src="../images/among-giants.jpg" alt="image" />
-            <Icons/> 
-=======
                 <Img src="/images/Earth.png" alt="image" />
             
->>>>>>> f742d29 (Completed the "What" according to wirefrmae.)
             </Sideimage> 
 
             

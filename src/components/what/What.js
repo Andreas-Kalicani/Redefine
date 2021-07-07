@@ -18,16 +18,12 @@ const Headding = styled.h2`
 
 `;
 const MiddleElement = styled.div `
-<<<<<<< HEAD:src/components/what/What.js
-  margin-bottom: 0px; 
-=======
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10vh;
->>>>>>> f742d29 (Completed the "What" according to wirefrmae.):src/components/what/H1.js
 `;
 const ParagraphContainer1= styled.div ` 
     height: 100%;
