@@ -44,7 +44,7 @@ const ParagraphContainer2 = styled.div `
     max-width: fit-content;
     background-color: #fbe9f2;
     border-bottom-left-radius: 20% ;
-    border-top-right-radius: 25%
+    border-top-right-radius: 25%;
     display: flex;
     justify-content: space-around;
     align-items: center;
