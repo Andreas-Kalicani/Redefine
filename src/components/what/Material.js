@@ -14,6 +14,10 @@ const MainContent = styled.div `
     padding-right: 5%;
     box-sizing: border-box;
     display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0;
     margin-top: 0px;
     margin-right: 0px;
@@ -43,7 +47,8 @@ const Sideimage = styled.div `
 
 const Img = styled.img ` 
     height: 100%;
-    width: 70%; 
+    width: 80%; 
+    
     display: flexbox;
     flex-direction: column;
     justify-content: center;
@@ -66,14 +71,8 @@ const Wrapper = styled.div `
     //display: flex;
     //flex-flow: nowrap;
     //align-items: stretch;
-
-    
     margin: 0;
     min-width: 0;
-    
-    
-    
-    
     max-width: 95%;
     max-height: 95%;
     margin-left: 10px;
@@ -87,8 +86,8 @@ const Wrapper = styled.div `
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: stretch;
-
+    align-items: center;
+    
 `;
 
 const Material = (  ) => {

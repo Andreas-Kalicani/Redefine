@@ -8,14 +8,16 @@ import LandingPageText from './LandPageText';
 
 const MainPart = styled.div ` 
         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
         height: 100vh;
-        background-repeat: no-repeat;
-        background-size: fit;
         background-image: url("/images/Frontpage.png");
-        align-items: flex-end;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        align-items: center;
         justify-content: center;
-        height: 100vh;
-        
     `;
  
 function FirstLandingPage() {
@@ -32,8 +34,8 @@ function FirstLandingPage() {
         <MainPart>  
             
               {/* <Collapse in={checked} {...Collapse(checked ? { timeout: 1000 } : {})}
-                collapsedHeight={50}>  */ } 
-                 <LandingPageText />
+                collapsedHeight={50}>  */}
+                    <LandingPageText />
            
                {/* </Collapse>  */ }  
            

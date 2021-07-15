@@ -2,10 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ParaWrapper = styled.div ` 
+    
     height: 100%;
     width: 80%;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     align-content: center;
     
 `;
@@ -20,6 +23,7 @@ const ParaTwo = () => {
             THE CLIENT, BUT BY <font color="white"> COLLABORATING WITH 
             STACKHOLDERS AND THE USERS </font> WITHIN THE PROJECT <font color="white"> ECOSYSTEM. </font> 
         </h1>
+        
         </div>
     </ParaWrapper>
 

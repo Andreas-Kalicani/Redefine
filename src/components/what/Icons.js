@@ -4,24 +4,27 @@ import styled from 'styled-components';
 
 const MainBoxFirst = styled.div ` 
 display: flex;
-color: blue;
+color: #FEE476;
 justify-items: flex-start;
 justify-content: space-around;
 padding: 30px;
+font-family: arial black;
 `;
 const MainBoxSecond = styled.div ` 
  display: flex;
- color: blue;
+ color: #FEE476;
  justify-items: flex-start;
  justify-content: space-around;
  padding: 30px;
+ font-family: arial black;
 `;
 const MainBoxThird = styled.div ` 
  display: flex;
- color: blue;
+ color: #FEE476;
  justify-items: flex-start;
  justify-content: space-around;
  padding: 30px;
+ font-family: arial black;
 `;
 const WhatIcon = styled.div`
     height: 10em;

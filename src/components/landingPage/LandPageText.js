@@ -9,16 +9,25 @@ import { Link as Scroll } from 'react-scroll';
 
 const TextContainer = styled.div ` 
     
-    text-align: center;
-    margin: 1rem 10rem;
+    
     font-size: 1.5em;
-    color: blue;
-    height: 20%;
-
+    font-family: arial black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
-const H1 = styled.h1`
-text-align: center; 
+const H1 = styled.h2`
+    text-align: center; 
+    color: #000AFF;
+`;
+const Icons = styled.div `
+    display: column;
+    align-items: center;
+    justify-content: center;
+    color: #000AFF;
+    border: 15px;
+    border-color: black;
 `;
 
 
@@ -37,12 +46,14 @@ text-align: center;
             
             
             <TextContainer> 
-                <h2> We are changing the future of tomorrow by implementing eco!</h2>
+                <H1> 
+                <h2> Changing the ordinary.</h2>
+                </H1>
             </TextContainer>
               <Scroll to='What' smooth={true}> 
-             <icons> 
+             <Icons> 
                  <FaAngleDown style={{ fontSize: '40px' }} />  
-            </icons>
+            </Icons>
             </Scroll>
         </div>    
     );
