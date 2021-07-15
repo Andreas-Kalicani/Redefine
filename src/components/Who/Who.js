@@ -9,7 +9,7 @@ import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";
 import {AiFillLinkedin} from "react-icons/ai"; 
 import {BrowserRouter as Router , Link, Redirect, useHistory, Route, Switch} from "react-router-dom"; 
-import Footer from "../footer/Footer";
+
 
 
 const Who = (props) => {
@@ -96,7 +96,11 @@ const Who = (props) => {
 
     const ReadMore = Styled.p`
     color: white; 
-    `;
+    margin: 0px; 
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline; 
+    }`;
 
     const Line = Styled.hr `
     color: #000AFF; 
@@ -136,7 +140,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
       <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
     
       </Link>
-    <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore><p className="about">Læs mere om Caroline ></p></ReadMore></Height>
+    <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore>Læs mere om Caroline ></ReadMore></Height>
       </Links>
     </Image>
     <Image>
@@ -152,7 +156,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     <img className="Luna-Berlin size"  alt="Luna Berlin" src="../images/Luna.jpg"/>
    
 </Link>
- <Height><Span><span>Partner & Project Manager</span></Span><br />  LUNA BERLIN <ReadMore><p className="about">Læs mere om Caroline ></p></ReadMore> </Height>
+ <Height><Span><span>Partner & Project Manager</span></Span><br />LUNA BERLIN <ReadMore>Læs mere om Caroline ></ReadMore> </Height>
  
      </Links>
 </Image>
@@ -169,7 +173,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
       <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>
     
    </Link>  
-<Height><Span><span>Partner & Design Consultant</span></Span><br />MARIA HØJGAARD<ReadMore><p className="about">Læs mere om Caroline ></p> </ReadMore> </Height>
+<Height><Span><span>Partner & Design Consultant</span></Span><br />MARIA HØJGAARD<ReadMore>Læs mere om Caroline ></ReadMore> </Height>
     </Links>
 </Image>
  </ImageContainer>
@@ -179,7 +183,6 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
 <Maria />
 <hr className="lunaLine" />
 <Luna />
-<Footer />
     </div>
     );
 }

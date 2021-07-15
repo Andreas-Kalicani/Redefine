@@ -78,7 +78,7 @@ return (
    <li><a href="/">WHAT?</a></li>
 
   
-        <li><a href="/why">WHY?</a></li>
+        <li><a href="/how">HOW?</a></li>
         
      
         <li><a href="/work">WORK?</a></li>

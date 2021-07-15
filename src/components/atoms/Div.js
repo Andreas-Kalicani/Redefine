@@ -7,7 +7,7 @@ const Div = styled.div`
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-    background-color: #fff;
+    background-color: #fff7EC;
     margin-top: 40;
     flex-flow: column;
 `;

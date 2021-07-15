@@ -15,25 +15,22 @@ function WorkedWith() {
     return (
       
       <Container>
-          <H1>WE'VE WORKED WITH</H1>
+          <H1 stylingWorked>Vores tidligere projekter</H1>
           <DivContainer>
           <Div>
             <ImageDiv src={pic1}/>
-                <H2>Kultur distriktet</H2>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium temporibus. Praesentium dicta quibusdam, quod at officiis nostrum ullam magnam placeat id et doloribus repellat natus voluptas, in suscipit quidem.
-                Corrupti repellendus sed nostrum magni facere fugit iure excepturi qui mollitia hic, eligendi odit consectetur eum earum commodi? Ut, odit dignissimos molestias maiores fugit incidunt iure facilis animi recusandae harum.
-                Autem quae dignissimos voluptas et? Optio veniam minus fugit nemo amet nulla, omnis earum impedit debitis, esse, quam assumenda sequi. Quasi, voluptatum. Qui quam enim voluptatem adipisci expedita, autem molestias.</P>
+                <H2 stylingWorked>Kultur <br/> distriktet</H2>
+                <P stylingWho>I samarbejde med Kultur Distriktet skabte vi nye muligheder for interaktion og fællesskab for borgerne på Østerbro. Projektet forløb over 4 måneder i 2020. Metoderne anvendt inkluderede co-creation, gamification samt Service Design</P>
           </Div>
           <Div>
+          <P stylingWho2>I samarbejde med Kultur Distriktet skabte vi nye muligheder for interaktion og fællesskab for borgerne på Østerbro. Projektet forløb over 4 måneder i 2020. Metoderne anvendt inkluderede co-creation, gamification samt Service Design</P>
               <ImageDiv src={pic2}/>
-              <H2>Kultur distriktet</H2>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium temporibus. Praesentium dicta quibusdam, quod at officiis nostrum ullam magnam placeat id et doloribus repellat natus voluptas, in suscipit quidem.
-                Corrupti repellendus sed nostrum magni facere fugit iure excepturi qui mollitia hic, eligendi odit consectetur eum earum commodi? Ut, odit dignissimos molestias maiores fugit incidunt iure facilis animi recusandae harum.
-                Autem quae dignissimos voluptas et? Optio veniam minus fugit nemo amet nulla, omnis earum impedit debitis, esse, quam assumenda sequi. Quasi, voluptatum. Qui quam enim voluptatem adipisci expedita, autem molestias.</P>
+              <H2 stylingWorked>Kultur <br/> distriktet</H2>
+             
           </Div>
           </DivContainer>
          
-            <Video src={video} autoPlay controls loop type='video/mp4'></Video>
+            {/* <Video src={video} autoPlay controls loop type='video/mp4'></Video> */}
           
       </Container>
 

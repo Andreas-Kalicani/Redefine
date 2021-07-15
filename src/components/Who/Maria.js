@@ -42,7 +42,9 @@ const Maria = () =>{
     const Infotext = Styled.p`
     text-align: justify;
     width: 50%;
-    font-family: "Roboto"; 
+    font-family: "SF UI"; 
+    font-size: 18px; 
+   
     `; 
 
     const InfoContainer2 = Styled.div`
@@ -60,7 +62,7 @@ const Maria = () =>{
     `; 
 
     const TextBold = Styled.span`
-font-weight: bold; 
+    font-weight: bold; 
 `; 
 
     return (
@@ -73,7 +75,11 @@ font-weight: bold;
         <Infotext className="info-text"><TextBold>Service Designer - System og Oplevelsesdesign - Strategi og implementering</TextBold>
 <br />
 <br />
-Maria har en  Bachelor i Informations og Performance Design fra Roskilde Universitet. Hun har erfaring med urban design, installations design og system design. Maria er en passioneret designer, der søger en mere bæredygtig og kunstnerisk verden. 
+Med en bachelor i Informatik og Performance Design fra Roskilde Universitet og en kandidat i Service System Design fra Aalborg Universitet, er Maria ekspert i brugerdrevet design med fokus på designkonceptualisering, værdiskabelse, organisatorisk forandring og bæredygtighed.
+<br />
+<br />
+Med specialisering i Service Design, har Maria arbejdet med adskillige brancher indenfor både store og mindre design projekter, såsom bydesign, installationsdesign og softwareudvikling. Hendes primære fokus er på konceptudvikling og implementering af innovative løsninger i et aktørdrevet landskab.
+
 <br />
 <br/>
 <TextBold><span className="text-bold">Stilling</span></TextBold>

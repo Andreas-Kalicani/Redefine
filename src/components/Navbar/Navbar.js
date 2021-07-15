@@ -5,12 +5,15 @@ import HamburgerMenu from "./Hamburger";
 import "../../App.css";
 
 const Nav = styled.div`
+    
 width: 100%; 
 height: 00px; 
-padding: 0 0px; 
+padding: 00px; 
 display:flex; 
 justify-content: space-between; 
 margin: 0px; 
+
+
 
 .logo{
     padding: 0px 0;
@@ -29,11 +32,13 @@ margin: 0px;
 `;
 
 const Logo = styled.h1`
-color: #fff; 
+
 font-size: 1.5em; 
 position:fixed;
 margin-left: 10px;
 margin-top: 10px;
+z-index: 90;
+font-family: Arial, Helvetica, sans-serif;
 .logo1{
     color: black;
 }
@@ -45,7 +50,7 @@ width: 90%;
 color: white;
 text-align: center; 
 position:absolute; 
-top:67%; 
+
 left:5.1%;
 font-size: 1.2em; 
 .highlight{
@@ -53,10 +58,7 @@ font-size: 1.2em;
 }
 `;
 
-const Image = styled.img`
-posititon: releative; 
-right: 30px; 
-`;
+
 
 export function Navbar(props){
 return (
@@ -64,12 +66,9 @@ return (
   <div className="logo">
   
   <Logo>
- <h1 className="logo-name">RE<span className="logo1">DEFINE</span></h1>
+ <h1 className="logo-name">RE:<span className="logo1">DEFINE</span></h1>
  </Logo>
- <SubText>
-
-</SubText>
-
+ 
 </div>
 <HamburgerMenu />
  

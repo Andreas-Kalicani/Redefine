@@ -40,7 +40,7 @@ const CarolineContainer= Styled.div`
 const CarolineText = Styled.p `
 text-align: justify;
 width: 50%;
-font-family: "Roboto"; 
+font-family: "SF UI"; 
 `;
 
 const InfoContainerCaroline = Styled.div`

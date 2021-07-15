@@ -51,7 +51,8 @@ padding-top: 3%;
 const LunaText = Styled.p`
 width: 50%;
 text-align: justify;
-font-family: "Roboto"; 
+font-family: "SF UI";
+font-size: 18px;  
 `; 
 
 const InfoContainer = Styled.div`

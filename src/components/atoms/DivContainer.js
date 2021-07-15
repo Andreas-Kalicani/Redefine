@@ -8,7 +8,7 @@ const DivContainer = styled.div`
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-    background-color: #fff;
+    background-color: #fff7EC;
     margin-bottom: 4em;
    
 `;
