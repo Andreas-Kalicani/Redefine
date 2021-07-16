@@ -69,8 +69,6 @@ right: 60%;
 text-align: center;
 font-size: 3em;
 font-family: Arial, Helvetica, sans-serif;
-letter-spacing: 2px;
-line-height: 2em;
 color: #000;
 font-weight: 800;
 

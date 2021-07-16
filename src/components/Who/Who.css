@@ -3,10 +3,25 @@
 
 /* Making text center and adding background image and adding a font */
 .Who{
-    text-align: center; 
-    background-color:#97A090; 
-    box-sizing: border-box;
-    font-family: 'DM Serif Display', serif;
+  text-align: center;
+  background-color:#fff7ec;
+  box-sizing: border-box;
+  font-family: 'DM Serif Display', serif;
+  /* height: 100vh; */
+  max-width: 100%;
+    
+}
+body{
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+@media screen and (min-with: 415px){
+  .who{
+    height: 100vh; 
+   
+  }
 }
 
     /* Adding circle image on the three images of Luna, Maria and Caroline */
@@ -39,19 +54,169 @@
       font-weight: bold; 
     }
     
+    .about:hover{
+      text-decoration: underline; 
+      cursor: pointer;
+    }
     /* Making the Image cirle for Maria */ 
 
     .Maria{
      clip-path: circle();
-     width: 20%;
+     width: 25%;
      min-width: 250px;
+     position: relative; 
+     bottom: 10px; 
      
     }
     
-        /* Making the Image cirle for Caroline*/ 
+    /* Making the Image cirle for Caroline*/ 
     .Caroline{
       clip-path: circle(); 
       width: 20%;
       min-width: 250px;
     }
+
+    .image-overlay{
+      position: absolute; 
+      top: 39.9%; 
+      left: 0; 
+      height: 38.3%; 
+      width: 100%; 
+      clip-path: circle(); 
+      background-color: rgba(0, 0, 0, 0.6); 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      opacity: 0; 
+      transition: opacity 0.25s; 
+
+    }
+
+    .image-overlay > * {
+      transform: translateY(20px); 
+      transition: transform 0.25s; 
+    }
+
+    .image-overlay:hover > * {
+      transform: translateY(0);
+    }
+
+    .image-overlay:hover{
+      opacity: 1;
+    }
     
+    .background-maria{
+        width: 100%;
+        /* height: 100vh; */
+        background-color:#fff7ec;
+  
+    }
+
+  .text-font{
+     font-family: "Quicksand" , sans-serif; 
+     font-weight: bold; 
+     color: #FEE476; 
+     font-size: 2em; 
+  }
+
+  .image-overlay2{
+    position: absolute; 
+      top: 39.9%; 
+    
+      right: 30%; 
+      height: 38.5%; 
+      width: 100%; 
+      clip-path: circle(); 
+      background-color: rgba(0, 0, 0, 0.6); 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      opacity: 0; 
+      transition: opacity 0.25s; 
+  }
+
+  .image-overlay2 > * {
+    transform: translateY(20px); 
+    transition: transform 0.25s; 
+  }
+
+  .image-overlay2:hover > * {
+    transform: translateY(0);
+  }
+
+  .image-overlay2:hover{
+    opacity: 1;
+  }
+  
+
+  .image-overlay3{
+    position: absolute; 
+    top: 39.9%; 
+    left: 30%; 
+    height: 38.5%; 
+    width: 100%; 
+    clip-path: circle(); 
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.25s; 
+
+  }
+
+
+  .image-overlay3 > * {
+    transform: translateY(20px); 
+    transition: transform 0.25s; 
+  }
+
+  .image-overlay3:hover > * {
+    transform: translateY(0);
+  }
+
+  .image-overlay3:hover{
+    opacity: 1;
+  }
+  
+.theContainer{
+ width: 100%; 
+ min-height: 633px; 
+ background-color:#97A090; 
+ margin-top: 5%; 
+ 
+}
+
+.lunaLine {
+  background-color: #000AFF; 
+  width: 1087.5px;
+  margin-top: 0%; 
+  border: 2px solid #000AFF; 
+
+}
+
+.mariaLine{
+  background-color: #000AFF; 
+  width: 1087.5px;
+  margin-top: 5%; 
+  border: 2px solid #000AFF; 
+
+}
+
+hr.footerLine{
+  background-color: white;  
+}
+
+.lunaLine{
+margin-top: 4.0%; 
+
+}
+
+#footerLine{
+  background-color: white; 
+}
+
+a{
+  color: black; 
+  text-decoration: inherit; 
+}
