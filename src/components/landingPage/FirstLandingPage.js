@@ -1,6 +1,6 @@
 //import { Collapse } from 'react-collapse';
 import React, { useEffect, useState } from "react";
-
+import LandingPageText from "./LandPageText";
 import styled from "styled-components";
 
 const MainPart = styled.div`
@@ -25,18 +25,9 @@ function FirstLandingPage() {
 
   return (
     <div>
-        <h2>Design derskaber værdi</h2>
-        <p>
-          Vi udvikler værdiskabende løsninger indenfor brugerdreven innovation
-          og Service Design. RE:DEFINE er et fremtidsfokuseret designbureau, som
-          kan hjælpe din virksomhed med udvikling af både digitale og fysiske
-          designløsninger for at øge dine kunders serviceoplevelse. Med den
-          nyeste viden indenfor serviceorienteret, systembaseret og
-          brugercentreret design tilbyder vi designrådgivning, workshop
-          facilitering, konceptudvikling af innovative løsninger samt optimering
-          af eksisterende processer og interessent-netværk. Da vores arbejde i
-          høj grad er feltbaseret, er vi klar til at møde jer, der hvor I er.
-        </p>
+      <MainPart> 
+        <LandingPageText/>
+        </MainPart>
       </div>
   )
 }

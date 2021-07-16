@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Contact from './components/Contact'
 import How from './components/How/How'
 import Footer from "./components/footer/Footer"
+import What from "./components/what/What";
 
 function App() {
   const [cross, setCross] = useState(); 
@@ -20,9 +21,14 @@ function App() {
       <Switch>
     <Route exact path="/">
       <FirstLandingPage/>
+      <What/>
   </Route> 
+  <Route exact path="/what">
+    <What/>
+    </Route>
   <Route exact path="/work">
     <WorkedWith/>
+    
   </Route>
      <Route exact path="/contact">
      <Contact/>

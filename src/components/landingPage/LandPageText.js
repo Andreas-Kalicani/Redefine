@@ -23,11 +23,20 @@ const H1 = styled.h2`
 `;
 const Icons = styled.div `
     display: column;
+    margin: 0 300;
     align-items: center;
     justify-content: center;
     color: #000AFF;
     border: 15px;
     border-color: black;
+
+    &:hover {
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+        transform: scale(1.5);
+        z-index: 99;
+        overflow: hidden;
+    }   
 `;
 
 
@@ -52,7 +61,7 @@ const Icons = styled.div `
             </TextContainer>
               <Scroll to='What' smooth={true}> 
              <Icons> 
-                 <FaAngleDown style={{ fontSize: '40px' }} />  
+                 <FaAngleDown style={{ fontSize: '40px', margin:'0 300' }} />  
             </Icons>
             </Scroll>
         </div>    

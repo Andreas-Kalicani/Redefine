@@ -32,7 +32,7 @@ const WhatIcon = styled.div`
  &:hover {
         opacity: 1;
         transition: all 0.2s ease-in-out;
-        transform: scale(1.2);
+        transform: scale(1.3);
         z-index: 99;
         overflow: hidden;
     }   

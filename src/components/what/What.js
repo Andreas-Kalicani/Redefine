@@ -44,8 +44,9 @@ const ParagraphContainer1= styled.div `
 `;
 const FirstWave = styled.div ` 
     
-    background: #FFF7EC;
-    text-align: center;
+    //background: #FFF7EC;
+    //text-align: center;
+    
 `;
 const ParagraphContainer2 = styled.div ` 
     height: 100%;
