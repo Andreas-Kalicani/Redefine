@@ -40,7 +40,7 @@ const SecondSection = styled.div`
     right: 10%;
     @media (max-width: 770px) {
       width: 80%;
-      top:100%;
+      
     }
    
     @media (max-width: 1300px) and (min-width: 800px) {
