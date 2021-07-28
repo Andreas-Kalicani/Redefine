@@ -10,6 +10,7 @@ const DivContainer = styled.div`
     justify-content: space-evenly;
     background-color: #fff7EC;
     margin-bottom: 4em;
+    z-index: -2;
     @media (max-width:700px){
         width: 50%; 
         height: 10%;

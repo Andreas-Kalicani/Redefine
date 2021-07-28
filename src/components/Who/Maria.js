@@ -33,6 +33,7 @@ const Maria = () =>{
             font-size: 3em;
        
 }
+
     `;
 
     const MariaContainer = Styled.div`

@@ -7,6 +7,7 @@ const Container = styled.div`
     height: 80vh;
     margin: 0px auto;
     justify-content: space-evenly;
+    z-index: -2;
 `;
 
 export default Container

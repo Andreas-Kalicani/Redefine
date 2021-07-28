@@ -9,6 +9,7 @@ const Sticky = styled.nav`
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 19;
 `;
 
 const Nav = styled.div`
@@ -19,6 +20,11 @@ const Nav = styled.div`
   width: inherit;
   padding: 0px;
   margin: 0px;
+
+
+  @media (max-width: 400px) {
+    flex-wrap: nowrap;
+  }
 `;
 
 const Column = styled.div`

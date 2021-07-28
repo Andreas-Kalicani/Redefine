@@ -30,7 +30,7 @@ const SecondSection = styled.div`
   z-index: -2;
 
   div {
-    width: 40%;
+    width: 43%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,9 @@ const SecondSection = styled.div`
     right: 10%;
     @media (max-width: 770px) {
       width: 80%;
+      top:100%;
     }
+   
     @media (max-width: 1300px) and (min-width: 800px) {
       top: auto;
     }
@@ -58,9 +60,7 @@ const ThirdSection = styled.div`
   justify-content: flex-end;
   align-content: center;
   z-index: -2;
-  @media (max-width: 734px) {
-    height: 80vh;
-  }
+  
   @media (max-width: 1300px) and (min-width: 800px) {
     height: 100vh;
   }
@@ -131,12 +131,14 @@ const FourthSection = styled.div`
     @media (max-width: 770px) {
       font-size: 2.5em;
     }
+    @media (max-width: 426px) {
+    font-size: 1.7em;
+  }
   }
 
   p {
-    @media (max-width: 734px) {
-      width: 90%;
-      margin-left: 2.5%;
+    @media (max-width: 464px) {
+    font-size: 0.7em;
     }
   }
 `;
@@ -182,24 +184,31 @@ const SixthSection = styled.div`
       font-size: 2em;
       width: 60%;
     }
+    @media (max-width: 426px) {
+    font-size: 1.2em;
+  }
   }
 
   p {
     width: 80%;
     margin-top: 0px;
-  }
+    @media (max-width: 464px) {
+    font-size: 0.7em;
+    } 
+}
+
 `;
 
 const H1 = styled.h1`
-  font-family: Roboto, sans-serif;
-  letter-spacing: 2.8px;
   font-size: 3.5em;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 2.8px;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5em;
   color: #000aff;
   @media (max-width: 1300px) and (min-width: 800px) {
     left: 16%;
+  }
+  @media (max-width: 426px) {
+    font-size: 2em;
   }
 
   span {
@@ -215,6 +224,9 @@ const H2 = styled.h2`
   @media (max-width: 770px) {
     font-size: 3em;
   }
+  @media (max-width: 426px) {
+    font-size: 1.7em;
+  }
 `;
 
 const P = styled.p`
@@ -225,6 +237,9 @@ const P = styled.p`
   @media (max-width: 770px) {
     font-size: 0.9em;
   }
+  @media (max-width: 464px) {
+    font-size: 0.7em;
+    }
 `;
 
 const Img = styled.img`
@@ -234,9 +249,7 @@ const Img = styled.img`
   @media (max-width: 770px) {
     display: none;
   }
-  @media (min-width: 771px) {
-    width: 30%;
-  }
+ 
 `;
 
 const Img2 = styled.img`

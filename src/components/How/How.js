@@ -8,6 +8,7 @@ const FirstSection = styled.div`
   height: 100vh;
   background-color: #97a090;
   padding: 0px;
+  z-index: -2;
 `;
 
 const SecondSection = styled.div`
@@ -18,6 +19,7 @@ const SecondSection = styled.div`
   flex-wrap: wrap;
   align-content: flex-end;
   justify-content: flex-end;
+  z-index: -2;
   @media (max-width: 734px) {
     height: 120vh;
     padding-bottom: 50px;
@@ -29,6 +31,7 @@ const SecondSection = styled.div`
     position: absolute;
     top: 110%;
     margin-left: 9em;
+    z-index: -2;
 
     @media (max-width: 734px) {
       width: 80%;
@@ -51,6 +54,7 @@ const ThirdSection = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+
   @media (max-width: 734px) {
   }
 
@@ -60,6 +64,7 @@ const ThirdSection = styled.div`
     position: absolute;
     top: 220%;
     padding-right: 5em;
+  
     @media (max-width: 734px) {
       width: 70%;
     }
@@ -73,7 +78,7 @@ const FourthSection = styled.div`
   flex-wrap: wrap;
   align-content: flex-end;
   justify-content: flex-end;
-
+  z-index: -2;
   @media (max-width: 734px) {
     height: 1100px;
   }
@@ -84,6 +89,7 @@ const FourthSection = styled.div`
     position: absolute;
     top: 315%;
     margin-left: 9em;
+    z-index: -2;
     @media (max-width: 734px) {
       width: 80%;
       margin-left: 2em;
@@ -100,6 +106,7 @@ const FourthSection = styled.div`
     width: 120vh;
     padding-left: 3em;
     padding-bottom: 1em;
+
     @media (max-width: 734px) {
       width: initial;
       font-size: 3em;
@@ -126,6 +133,7 @@ const H1 = styled.h1`
   letter-spacing: 2px;
   line-height: 1.5em;
   color: #fee476;
+
   span {
     color: #526256;
   }
@@ -145,6 +153,7 @@ const H2 = styled.h2`
   font-family: Arial Black;
   font-size: 3.3em;
   color: #ee6c4d;
+  
   @media (max-width: 734px) {
     font-size: 3em;
   }
@@ -158,6 +167,7 @@ const P = styled.p`
   line-height: 1.8em;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
+  z-index: -2;
   @media (max-width: 770px) {
     font-size: 0.8em;
   }
@@ -166,9 +176,7 @@ const P = styled.p`
   }
 `;
 const Img = styled.img`
-  position: relative;
-  right: 10%;
-  bottom: 10%;
+  
   @media (max-width: 770px) {
     display: none;
   }
@@ -182,6 +190,7 @@ const Img = styled.img`
 const Img2 = styled.img`
   position: relative;
   left: -57%;
+
   @media (max-width: 770px) {
     display: none;
   }
@@ -194,6 +203,7 @@ const Img3 = styled.img`
   position: relative;
   bottom: 25%;
   right: 13vh;
+  z-index: -2;
   @media (max-width: 770px) {
     display: none;
   }

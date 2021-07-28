@@ -5,10 +5,7 @@ import Maria from "./Maria";
 import Caroline from "./Caroline";  
 import "./Who.css"; 
 import { Link as Links, animateScroll as scroll } from "react-scroll";
-import { MdEmail } from 'react-icons/md';
-import {FaPhoneAlt} from "react-icons/fa";
-import {AiFillLinkedin} from "react-icons/ai"; 
-import {BrowserRouter as Router , Link, Redirect, useHistory, Route, Switch} from "react-router-dom"; 
+ 
 
 
 
