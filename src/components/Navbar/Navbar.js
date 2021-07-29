@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import styled from "styled-components";
 import HamburgerMenu from "./Hamburger";
 import Logo from "./Logo";
@@ -37,7 +38,9 @@ export default function Navbar(props) {
     <Sticky>
       <Nav>
         <Column>
+        <Link to="/">
           <Logo width="100%" height="100%" className="logo" />
+          </Link>
         </Column>
         <Column>
           <HamburgerMenu />
