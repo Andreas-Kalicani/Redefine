@@ -54,9 +54,7 @@ const Sidebar = styled.aside`
     }
   }
 
-  @media (min-width: 515px) {
-    font-size: 50px;
-  }
+
 
   @media (max-width: 700px) {
     width: 100%;

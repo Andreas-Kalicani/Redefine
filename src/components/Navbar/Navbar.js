@@ -4,7 +4,7 @@ import styled from "styled-components";
 import HamburgerMenu from "./Hamburger";
 import Logo from "./Logo";
 import "../../App.css";
-import "./navbar.css";
+import { useHistory } from "react-router-dom";
 
 const Sticky = styled.nav`
   width: 100%;
@@ -22,9 +22,12 @@ const Nav = styled.div`
   padding: 0px;
   margin: 0px;
 
-
   @media (max-width: 400px) {
     flex-wrap: nowrap;
+  }
+
+  .logo {
+    cursor: pointer;
   }
 `;
 
@@ -34,13 +37,20 @@ const Column = styled.div`
 `;
 
 export default function Navbar(props) {
+  const history = useHistory();
+
+  const Redirect = () => history.push("/");
+
   return (
     <Sticky>
       <Nav>
         <Column>
-        <Link to="/">
-          <Logo width="100%" height="100%" className="logo" />
-          </Link>
+          <Logo
+            width="100%"
+            height="100%"
+            className="logo"
+            onClick={Redirect}
+          />
         </Column>
         <Column>
           <HamburgerMenu />

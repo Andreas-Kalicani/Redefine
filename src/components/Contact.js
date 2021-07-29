@@ -1,14 +1,13 @@
   import React from 'react';
   import H1 from './atoms/H1'
   import H2 from './atoms/H2'
-  import P from './atoms/P'
   import ContainerContact from './atoms/ContainerContact'
   import ContactDiv from './atoms/ContactDiv'
-  import InputContact from './atoms/InputContact'
-  import TextArea from './atoms/TextArea'
   import '../App.css'
   import emailjs from 'emailjs-com';
   import styled from 'styled-components'
+  import Popup from 'reactjs-popup';
+  
   
   const Form = styled.form`
     display: flex;
@@ -81,7 +80,10 @@ Udfyld kontaktformularen til højre eller send  en mail på redefine@outlook.dk 
       <input type="email" name="email"  placeholder='Enter your email' id='email' />
       <label  >Message</label>
       <textarea name="message"  />
-      <button className="buttonContact">Send</button>
+      <Popup trigger={<button className="buttonContact">Send</button>} position="right center">
+    <div>Email Sent !</div>
+  </Popup>
+      
                 </Form >
                 
             </ContactDiv>
