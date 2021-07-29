@@ -2,6 +2,6 @@
     z-index: 99; 
 
 }
-.logos{
-    z-index:89; 
+.logo{ 
+    cursor: pointer;
 }
