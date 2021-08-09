@@ -51,7 +51,7 @@
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_a7eumdd', 'template_al7dqei', e.target, 'user_dv0vo2Dt1rpR8kzyk2cXD')
+        emailjs.sendForm('service_vtvy94s', 'template_jg5xahb', e.target, 'user_dv0vo2Dt1rpR8kzyk2cXD')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
